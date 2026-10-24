@@ -1,0 +1,353 @@
+[
+  {
+    "state": "autocomplete",
+    "theme": "light",
+    "device": "desktop",
+    "file": "autocomplete-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "01-autocomplete-desktop-light.png"
+  },
+  {
+    "state": "autocomplete",
+    "theme": "light",
+    "device": "mobile",
+    "file": "autocomplete-mobile-light.png",
+    "width": 390,
+    "height": 1110,
+    "source": "01-autocomplete-mobile-light.png"
+  },
+  {
+    "state": "autocomplete",
+    "theme": "dark",
+    "device": "desktop",
+    "file": "autocomplete-desktop-dark.png",
+    "width": 1280,
+    "height": 900,
+    "source": "01-autocomplete-desktop-dark.png"
+  },
+  {
+    "state": "autocomplete",
+    "theme": "dark",
+    "device": "mobile",
+    "file": "autocomplete-mobile-dark.png",
+    "width": 390,
+    "height": 1156,
+    "source": "01-autocomplete-mobile-dark.png"
+  },
+  {
+    "state": "choice",
+    "theme": "light",
+    "device": "desktop",
+    "file": "choice-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "02-choice-desktop-light.png"
+  },
+  {
+    "state": "choice",
+    "theme": "light",
+    "device": "mobile",
+    "file": "choice-mobile-light.png",
+    "width": 390,
+    "height": 1217,
+    "source": "02-choice-mobile-light.png"
+  },
+  {
+    "state": "diff",
+    "theme": "light",
+    "device": "desktop",
+    "file": "diff-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "03-diff-desktop-light.png"
+  },
+  {
+    "state": "diff",
+    "theme": "light",
+    "device": "mobile",
+    "file": "diff-mobile-light.png",
+    "width": 390,
+    "height": 1211,
+    "source": "03-diff-mobile-light.png"
+  },
+  {
+    "state": "none",
+    "theme": "light",
+    "device": "desktop",
+    "file": "none-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "04-none-desktop-light.png"
+  },
+  {
+    "state": "none",
+    "theme": "light",
+    "device": "mobile",
+    "file": "none-mobile-light.png",
+    "width": 390,
+    "height": 1067,
+    "source": "04-none-mobile-light.png"
+  },
+  {
+    "state": "error",
+    "theme": "light",
+    "device": "desktop",
+    "file": "error-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "05-error-desktop-light.png"
+  },
+  {
+    "state": "error",
+    "theme": "light",
+    "device": "mobile",
+    "file": "error-mobile-light.png",
+    "width": 390,
+    "height": 1000,
+    "source": "05-error-mobile-light.png"
+  },
+  {
+    "state": "knowledge",
+    "theme": "light",
+    "device": "desktop",
+    "file": "knowledge-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "06-knowledge-desktop-light.png"
+  },
+  {
+    "state": "knowledge",
+    "theme": "light",
+    "device": "mobile",
+    "file": "knowledge-mobile-light.png",
+    "width": 390,
+    "height": 1000,
+    "source": "06-knowledge-mobile-light.png"
+  },
+  {
+    "state": "knowledge",
+    "theme": "dark",
+    "device": "desktop",
+    "file": "knowledge-desktop-dark.png",
+    "width": 1280,
+    "height": 900,
+    "source": "06-knowledge-desktop-dark.png"
+  },
+  {
+    "state": "knowledge",
+    "theme": "dark",
+    "device": "mobile",
+    "file": "knowledge-mobile-dark.png",
+    "width": 390,
+    "height": 1000,
+    "source": "06-knowledge-mobile-dark.png"
+  },
+  {
+    "state": "detail",
+    "theme": "light",
+    "device": "desktop",
+    "file": "detail-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "07-detail-desktop-light.png"
+  },
+  {
+    "state": "detail",
+    "theme": "light",
+    "device": "mobile",
+    "file": "detail-mobile-light.png",
+    "width": 390,
+    "height": 1000,
+    "source": "07-detail-mobile-light.png"
+  },
+  {
+    "state": "add",
+    "theme": "light",
+    "device": "desktop",
+    "file": "add-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "08-add-desktop-light.png"
+  },
+  {
+    "state": "add",
+    "theme": "light",
+    "device": "mobile",
+    "file": "add-mobile-light.png",
+    "width": 390,
+    "height": 1182,
+    "source": "08-add-mobile-light.png"
+  },
+  {
+    "state": "api",
+    "theme": "light",
+    "device": "desktop",
+    "file": "api-desktop-light.png",
+    "width": 1280,
+    "height": 3720,
+    "source": "09-api-desktop-light.png"
+  },
+  {
+    "state": "api",
+    "theme": "light",
+    "device": "mobile",
+    "file": "api-mobile-light.png",
+    "width": 390,
+    "height": 5371,
+    "source": "09-api-mobile-light.png"
+  },
+  {
+    "state": "api",
+    "theme": "dark",
+    "device": "desktop",
+    "file": "api-desktop-dark.png",
+    "width": 1280,
+    "height": 3720,
+    "source": "09-api-desktop-dark.png"
+  },
+  {
+    "state": "api",
+    "theme": "dark",
+    "device": "mobile",
+    "file": "api-mobile-dark.png",
+    "width": 390,
+    "height": 5305,
+    "source": "09-api-mobile-dark.png"
+  },
+  {
+    "state": "ai",
+    "theme": "light",
+    "device": "desktop",
+    "file": "ai-desktop-light.png",
+    "width": 1280,
+    "height": 3720,
+    "source": "10-ai-desktop-light.png"
+  },
+  {
+    "state": "ai",
+    "theme": "light",
+    "device": "mobile",
+    "file": "ai-mobile-light.png",
+    "width": 390,
+    "height": 4597,
+    "source": "10-ai-mobile-light.png"
+  },
+  {
+    "state": "event",
+    "theme": "light",
+    "device": "desktop",
+    "file": "event-desktop-light.png",
+    "width": 1280,
+    "height": 1162,
+    "source": "11-event-desktop-light.png"
+  },
+  {
+    "state": "event",
+    "theme": "light",
+    "device": "mobile",
+    "file": "event-mobile-light.png",
+    "width": 390,
+    "height": 1870,
+    "source": "11-event-mobile-light.png"
+  },
+  {
+    "state": "settings",
+    "theme": "light",
+    "device": "desktop",
+    "file": "settings-desktop-light.png",
+    "width": 1280,
+    "height": 1606,
+    "source": "12-settings-desktop-light.png"
+  },
+  {
+    "state": "settings",
+    "theme": "light",
+    "device": "mobile",
+    "file": "settings-mobile-light.png",
+    "width": 390,
+    "height": 2120,
+    "source": "12-settings-mobile-light.png"
+  },
+  {
+    "state": "settings",
+    "theme": "dark",
+    "device": "desktop",
+    "file": "settings-desktop-dark.png",
+    "width": 1280,
+    "height": 1606,
+    "source": "12-settings-desktop-dark.png"
+  },
+  {
+    "state": "settings",
+    "theme": "dark",
+    "device": "mobile",
+    "file": "settings-mobile-dark.png",
+    "width": 390,
+    "height": 2120,
+    "source": "12-settings-mobile-dark.png"
+  },
+  {
+    "state": "empty",
+    "theme": "light",
+    "device": "desktop",
+    "file": "empty-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "13-empty-desktop-light.png"
+  },
+  {
+    "state": "empty",
+    "theme": "light",
+    "device": "mobile",
+    "file": "empty-mobile-light.png",
+    "width": 390,
+    "height": 1000,
+    "source": "13-empty-mobile-light.png"
+  },
+  {
+    "state": "empty-library",
+    "theme": "light",
+    "device": "desktop",
+    "file": "empty-library-desktop-light.png",
+    "width": 1280,
+    "height": 900,
+    "source": "14-empty-library-desktop-light.png"
+  },
+  {
+    "state": "empty-library",
+    "theme": "light",
+    "device": "mobile",
+    "file": "empty-library-mobile-light.png",
+    "width": 390,
+    "height": 1000,
+    "source": "14-empty-library-mobile-light.png"
+  },
+  {
+    "state": "import-error",
+    "theme": "light",
+    "device": "desktop",
+    "file": "import-error-desktop-light.png",
+    "width": 1280,
+    "height": 973,
+    "source": "15-import-error-desktop-light.png"
+  },
+  {
+    "state": "import-error",
+    "theme": "light",
+    "device": "mobile",
+    "file": "import-error-mobile-light.png",
+    "width": 390,
+    "height": 1118,
+    "source": "15-import-error-mobile-light.png"
+  },
+  {
+    "state": "autocomplete",
+    "theme": "light",
+    "device": "panel",
+    "file": "autocomplete-panel-light.png",
+    "width": 560,
+    "height": 1156,
+    "source": "01-autocomplete-panel-light.png"
+  }
+]

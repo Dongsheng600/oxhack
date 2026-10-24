@@ -1,0 +1,15 @@
+{
+  "transport": "streamable-http",
+  "endpoint": "http://127.0.0.1:8001/mcp",
+  "tools": [
+    "open_refinement_panel",
+    "enhance_prompt",
+    "enhancement_sources",
+    "search_knowledge",
+    "read_knowledge",
+    "preview_knowledge",
+    "save_knowledge"
+  ],
+  "panel_error": false,
+  "knowledge_error": false
+}

@@ -1,0 +1,141 @@
+{
+  "date_utc": "2026-10-24",
+  "scope": "Synthetic prompts through the production FastAPI service with a configured Gemini API key, local PostgreSQL/pgvector, and Tiger Data cloud PostgreSQL/pgvector",
+  "environment": {
+    "database": "local PostgreSQL/pgvector for tests; Tiger Data cloud PostgreSQL/pgvector for final live journey",
+    "tiger_data_live_verified": true,
+    "snowflake_live_verified": false,
+    "snowflake_status": "not_configured",
+    "provider_payloads_or_secrets_recorded": false
+  },
+  "general_enhancement": {
+    "request_id": "live_d7112bd9025449a89101ebbc3c9260c2",
+    "http_status": 200,
+    "response_type": "multiple_choice",
+    "source_count": 0,
+    "ai_activity": [
+      {
+        "operation": "extraction",
+        "model": "gemini-3.5-flash-lite",
+        "status": "success",
+        "input_tokens": 44,
+        "output_tokens": 90
+      },
+      {
+        "operation": "embedding_query",
+        "model": "gemini-embedding-001",
+        "status": "success",
+        "calls": 6,
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "operation": "generation",
+        "model": "gemini-3.8-flash",
+        "status": "success",
+        "input_tokens": 169,
+        "output_tokens": 286
+      }
+    ],
+    "note": "This occurred before batching query embeddings into one SDK request. Zero candidates followed the approved general-enhancement branch."
+  },
+  "knowledge_journey": {
+    "preview_http_status": 200,
+    "generated_tag_count": 5,
+    "save_http_status": 201,
+    "saved_knowledge_id": "fa41f8a2-de0e-480f-9860-691045a7df65",
+    "synthetic_source_removed_after_check": true,
+    "enhancement_request_id": "live_9424259210f2472c98690158db3b1b85",
+    "enhancement_http_status": 200,
+    "enhancement_type": "multiple_choice",
+    "source_count": 0,
+    "ai_activity": [
+      {
+        "operation": "extraction",
+        "model": "gemini-3.5-flash-lite",
+        "status": "success",
+        "input_tokens": 42,
+        "output_tokens": 100
+      },
+      {
+        "operation": "embedding_query",
+        "model": "gemini-embedding-001",
+        "status": "success",
+        "calls": 1,
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "operation": "relevance",
+        "model": "gemini-3.5-flash-lite",
+        "status": "success",
+        "input_tokens": 83,
+        "output_tokens": 9
+      },
+      {
+        "operation": "generation",
+        "model": "gemini-3.8-flash",
+        "status": "success",
+        "input_tokens": 167,
+        "output_tokens": 338
+      }
+    ],
+    "note": "Gemini excluded the retrieved candidate after reviewing its summary. This verifies the all-filtered branch. The selected full-content branch passed both a real PostgreSQL API test with an injected provider and the separate live Gemini + Tiger Data journey."
+  },
+  "tiger_data_journey": {
+    "source_title": "Review with evidence",
+    "source_kind": "prompt",
+    "approved_mockup_content_reference": "design/prototype/components/knowledge.js",
+    "preview_http_status": 200,
+    "generated_tag_count": 5,
+    "save_http_status": 201,
+    "knowledge_id": "f60a94f3-4543-4c12-9c4a-e9f247630a07",
+    "knowledge_retained_for_real_use": true,
+    "enhancement_request_id": "tiger_88a77c2a0d0c48b396189712d2bab8d3",
+    "enhancement_http_status": 200,
+    "enhancement_type": "autocomplete",
+    "source_count": 1,
+    "review_source_selected": true,
+    "ai_activity": [
+      {
+        "operation": "extraction",
+        "model": "gemini-3.5-flash-lite",
+        "status": "success",
+        "latency_ms": 3791,
+        "input_tokens": 36,
+        "output_tokens": 74
+      },
+      {
+        "operation": "embedding_query",
+        "model": "gemini-embedding-001",
+        "status": "success",
+        "latency_ms": 319,
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "operation": "relevance",
+        "model": "gemini-3.5-flash-lite",
+        "status": "success",
+        "latency_ms": 2478,
+        "input_tokens": 76,
+        "output_tokens": 9
+      },
+      {
+        "operation": "generation",
+        "model": "gemini-3.6-flash",
+        "status": "success",
+        "latency_ms": 2823,
+        "input_tokens": 200,
+        "output_tokens": 46
+      }
+    ],
+    "note": "Gemini selected the saved source after summary relevance review. The service loaded full content only after selection and generated a valid suffix. Earlier Gemini 3.8 generation reached the service deadline; the stable 3.6 Flash default with minimal thinking passed."
+  },
+  "validation": {
+    "backend_and_bridge_tests": "47 passed, 1 skipped (live Snowflake requires credentials)",
+    "real_postgresql_api_journey": "1 passed",
+    "backend_owned_ruff": "passed",
+    "mcp_transport_tests": "8 passed"
+  }
+}

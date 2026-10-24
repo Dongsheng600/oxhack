@@ -1,0 +1,20 @@
+{
+  "name": "prompt-enhance-local",
+  "interface": {
+    "displayName": "Prompt Enhance Local"
+  },
+  "plugins": [
+    {
+      "name": "prompt-enhance",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

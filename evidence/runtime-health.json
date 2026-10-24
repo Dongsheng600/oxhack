@@ -1,0 +1,11 @@
+{
+  "web_http_status": 200,
+  "api_http_status": 200,
+  "dependencies": {
+    "database": "ready",
+    "gemini": "configured",
+    "snowflake": "not_configured"
+  },
+  "mcp_tool_count": 7,
+  "mcp_backend_forwarding_ok": true
+}

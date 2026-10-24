@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prompt-enhance",
+  "version": "0.1.0",
+  "description": "Refine prompts with opt-in suggestions and your saved knowledge.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Prompt Enhance",
+        "shortDescription": "Refine prompts with your knowledge",
+        "category": "Productivity",
+        "brandColor": "#244D3B",
+        "defaultPrompt": ["Open Prompt Enhance to refine my prompt."]
+      }
+    }
+  }
+}

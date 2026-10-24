@@ -1,0 +1,37 @@
+{
+  "scope": "Design prototype only; no production services tested",
+  "checks": [
+    {
+      "check": "Option selection stages its own diff; copy is absent",
+      "pass": true
+    },
+    {
+      "check": "Confirm applies staged option and increments revision",
+      "pass": true
+    },
+    {
+      "check": "Undo restores original draft and advances revision",
+      "pass": true
+    },
+    {
+      "check": "Decline all leaves prompt and revision unchanged",
+      "pass": true
+    },
+    {
+      "check": "Accept appends ghost suffix only",
+      "pass": true
+    },
+    {
+      "check": "Library search filters fixtures",
+      "pass": true
+    },
+    {
+      "check": "Activity status filter isolates failure",
+      "pass": true
+    },
+    {
+      "check": "Theme control changes rendered theme",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "plugin_id": "prompt-enhance@prompt-enhance-local",
+  "version": "0.1.0",
+  "installed": true,
+  "enabled": true,
+  "package_files_match": {
+    "plugin.json": true,
+    "mcp.json": true,
+    "skills/refine-prompt/SKILL.md": true,
+    "prompt_enhance_mcp/server.py": true
+  },
+  "mcp_transport_verified": true,
+  "native_composer_override": false,
+  "desktop_refresh_may_be_required": true
+}

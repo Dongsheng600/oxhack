@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "prompt-enhance-mcp"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["mcp>=1.28,<2", "httpx>=0.28,<1"]
+
+[project.scripts]
+prompt-enhance-mcp = "prompt_enhance_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["prompt_enhance_mcp"]

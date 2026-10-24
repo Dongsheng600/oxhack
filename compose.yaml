@@ -1,0 +1,21 @@
+name: prompt-enhance
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: prompt_enhance
+      POSTGRES_USER: prompt_enhance
+      POSTGRES_PASSWORD: prompt_enhance
+    ports:
+      - "127.0.0.1:54329:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U prompt_enhance -d prompt_enhance"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

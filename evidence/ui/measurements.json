@@ -1,0 +1,332 @@
+[
+  {
+    "name": "autocomplete-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "autocomplete-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "choice-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "choice-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "diff-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "diff-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "settings-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "settings-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "none-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "none-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "error-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "error-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "empty-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "empty-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "autocomplete-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "autocomplete-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "choice-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "choice-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "diff-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "diff-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "knowledge-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "knowledge-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "detail-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "detail-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "add-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "add-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "empty-library-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "empty-library-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "api-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "api-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "ai-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "ai-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "event-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "event-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "import-error-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "import-error-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "settings-desktop-dark",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "settings-mobile-dark",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "knowledge-desktop-dark",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "knowledge-mobile-dark",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "api-desktop-dark",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "api-mobile-dark",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "autocomplete-desktop-dark",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "autocomplete-mobile-dark",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  },
+  {
+    "name": "autocomplete-panel-light",
+    "height": 1000,
+    "scrollWidth": 560,
+    "theme": "",
+    "width": 560
+  },
+  {
+    "name": "live-none-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "live-app-desktop-light",
+    "height": 900,
+    "scrollWidth": 1280,
+    "theme": "",
+    "width": 1280
+  },
+  {
+    "name": "live-app-mobile-light",
+    "height": 1000,
+    "scrollWidth": 390,
+    "theme": "",
+    "width": 390
+  }
+]
